@@ -2,3 +2,5 @@
 build
 config.properties
 /bin/
+/gradle/
+/out/
