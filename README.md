@@ -1,4 +1,4 @@
-# Braintree Spring Example
+raintree Spring Example
 
 [![Build Status](https://travis-ci.org/braintree/braintree_spring_example.svg?branch=master)](https://travis-ci.org/braintree/braintree_spring_example)
 

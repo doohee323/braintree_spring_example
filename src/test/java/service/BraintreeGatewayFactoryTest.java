@@ -1,24 +1,23 @@
-package springexample;
+package service;
 
-import java.util.Map;
-import java.util.HashMap;
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.PrintStream;
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintStream;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 import com.braintreegateway.BraintreeGateway;
 import com.braintreegateway.Environment;
 
-import org.junit.Assert;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import springexample.BraintreeGatewayFactory;
 
 public class BraintreeGatewayFactoryTest {
     private static File mockConfigFile;
